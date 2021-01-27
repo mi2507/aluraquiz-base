@@ -35,7 +35,8 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>AluraQuiz - Modelo Base</title>
+        <title>MarvelQuiz</title>
+        <meta property="og:image" content="https://img.elo7.com.br/product/zoom/267BDD4/faixa-decorativa-em-adesivo-dos-vingadores-ultimato-faixa-adesiva.jpg"></meta>
       </Head>
       <QuizContainer>
         <QuizLogo />
