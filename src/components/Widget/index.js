@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 const Widget = styled.div`
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 14px;
+  margin-bottom: 14px;
   border: 1px solid ${({ theme }) => theme.colors.primary};
   background-color: ${({ theme }) => {
     return theme.colors.mainBg;
@@ -16,7 +16,7 @@ const Widget = styled.div`
     margin-bottom: 0;
   }
   p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 1;
   }
@@ -35,7 +35,7 @@ Widget.Header = styled.header`
 `;
 
 Widget.Content = styled.div`
-  padding: 16px 24px 32px 32px;
+  padding: 20px 24px;
   & > *:first-child {
     margin-top: 0;
   }

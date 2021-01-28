@@ -9,6 +9,8 @@ import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
 // const BackgroundImage = styled.div`
 //   background-image: url(${db.bg});
@@ -24,7 +26,7 @@ export const QuizContainer = styled.div`
   margin: auto 10%;
   @media screen and (max-width: 500px) {
     margin: auto;
-    padding: 15px;
+    padding:64px 20px;
   }
 `;
 
@@ -56,7 +58,7 @@ export default function Home() {
               console.log('Fazendo uma submissão por meio do react');
             }}
             >
-              <input
+              <Input
                 onChange={function (infosDoEvento) {
                   console.log(infosDoEvento.target.value);
                   // State
@@ -65,10 +67,10 @@ export default function Home() {
                 }}
                 placeholder="Digite seu nome"
               />
-              <button type="submit" disabled={name.length === 0}>
+              <Button type="submit" disabled={name.length === 0}>
                 Jogar
                 {name}
-              </button>
+              </Button>
             </form>
           </Widget.Content>
         </Widget>

@@ -7,16 +7,7 @@ const QuizBackground = styled.div`
   background-image: url(${({ backgroundImage }) => backgroundImage});
   background-color: ${({ theme }) => theme.colors.mainBg};
   flex: 1;
-  input{
-      padding: 12px 28px;
-      width:100%;
-    }
-  button{
-    width:100%;
-    padding: 0px 110px 20px;
-    margin-top: 8px;
-    background-color: #fff;
-  }
+  
   @media screen and (max-width: 500px) {
     background-image: none;
     background-color:#274a9e;
@@ -39,11 +30,6 @@ const QuizBackground = styled.div`
     *:first-child {
       position: relative;
       z-index: 10;
-    }
-    input{
-      width:100%;
-      padding: 0px 24px 16px;
-
     }
   }
 `;
