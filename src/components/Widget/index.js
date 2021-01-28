@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 const Widget = styled.div`
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   border: 1px solid ${({ theme }) => theme.colors.primary};
   background-color: ${({ theme }) => {
     return theme.colors.mainBg;
@@ -11,12 +11,12 @@ const Widget = styled.div`
   overflow: hidden;
   h1, h2, h3 {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1;
     margin-bottom: 0;
   }
   p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 1;
   }
@@ -35,7 +35,7 @@ Widget.Header = styled.header`
 `;
 
 Widget.Content = styled.div`
-  padding: 24px 32px 32px 32px;
+  padding: 16px 24px 32px 32px;
   & > *:first-child {
     margin-top: 0;
   }

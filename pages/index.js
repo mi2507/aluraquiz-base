@@ -33,10 +33,11 @@ export default function Home() {
   const [name, setName] = React.useState('');
 
   return (
+    // eslint-disable-next-line react/jsx-filename-extension
     <QuizBackground backgroundImage={db.bg}>
       <Head>
         <title>MarvelQuiz</title>
-        <meta property="og:image" content="https://img.elo7.com.br/product/zoom/267BDD4/faixa-decorativa-em-adesivo-dos-vingadores-ultimato-faixa-adesiva.jpg"></meta>
+        <meta property="og:image" content="https://img.elo7.com.br/product/zoom/267BDD4/faixa-decorativa-em-adesivo-dos-vingadores-ultimato-faixa-adesiva.jpg" />
       </Head>
       <QuizContainer>
         <QuizLogo />
@@ -47,7 +48,8 @@ export default function Home() {
           <Widget.Content>
             <p>
               Teste os seus conhecimentos: Vingadores é um filme incrível da Marvel.
-              Faça o quiz e descubra os segredos desse filme maravilhoso!</p>
+              Faça o quiz e descubra os segredos desse filme maravilhoso!
+            </p>
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
@@ -61,7 +63,7 @@ export default function Home() {
                   // name = infosDoEvento.target.value;
                   setName(infosDoEvento.target.value);
                 }}
-                placeholder="Diz ai seu nome"
+                placeholder="Digite seu nome"
               />
               <button type="submit" disabled={name.length === 0}>
                 Jogar
