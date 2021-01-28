@@ -1,7 +1,7 @@
 {
   "bg": "https://img.elo7.com.br/product/zoom/267BDD4/faixa-decorativa-em-adesivo-dos-vingadores-ultimato-faixa-adesiva.jpg",
-  "title": "Quiz A Saga Vingadores",
-  "description": "Teste os seus conhecimentos: Vingadores é um filme incrível da Marvel! Onde há imensas aparições inesperadas e chocantes de seus heróis favoritos. Faça o quiz e descubra os segredos desse filme maravilhoso!",
+  "title": "Marvel Studios",
+  "description": "Teste os seus conhecimentos: Vingadores é um filme incrível da Marvel. Faça o quiz e descubra os segredos desse filme maravilhoso!",
   "questions": [
     {
       "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
@@ -35,6 +35,7 @@
       "secondary": "#227ab2",
       "third": "#fbdbed",
       "mainBg": "#00000070",
+      "mobile":"#1a4392",
       "contrastText": "#fefafb",
       "wrong": "#FF5722",
       "success": "#4CAF50"

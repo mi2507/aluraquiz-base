@@ -10,7 +10,7 @@ const QuizBackground = styled.div`
   
   @media screen and (max-width: 500px) {
     background-image: none;
-    background-color:#274a9e;
+    background-color:${({ theme }) => theme.colors.mobile};;
     &:after {
       content: "";
       background-size: cover;

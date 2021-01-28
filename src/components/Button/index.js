@@ -7,7 +7,7 @@ const Button = styled.button`
   border-radius: ${({ theme }) => theme.borderRadius};
   border: 0;
   width: 100%;
-  padding: 12px;
+  padding: 10px 16px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1;
@@ -20,7 +20,7 @@ const Button = styled.button`
     opacity: .5;
   }
   &:disabled {
-    background-color: ${({ theme }) => theme.colors.secondary};
+    background-color: #979797;
     cursor: not-allowed;
   }
 `;
