@@ -32,6 +32,7 @@ const { theme } = db;
 // eslint-disable-next-line react/prop-types
 export default function App({ Component, pageProps }) {
   return (
+    // eslint-disable-next-line react/jsx-filename-extension
     <>
       <Head>
         <meta property="og:image" content="https://img.quizur.com/f/img5ce56ac33745a8.13458145.jpeg?lastEdited=1558538982" />

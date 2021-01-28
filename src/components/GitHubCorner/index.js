@@ -37,6 +37,7 @@ const SVGWrapper = styled.svg`
 // eslint-disable-next-line react/prop-types
 export default function GitHubCorner({ projectUrl }) {
   return (
+    // eslint-disable-next-line react/jsx-filename-extension
     <Wrapper>
       <a href={projectUrl} target="_blank" rel="noreferrer">
         <SVGWrapper className="githubCorner" width="80" height="80" viewBox="0 0 250 250" aria-hidden="true">

@@ -35,6 +35,7 @@ export default function Home() {
   const [name, setName] = React.useState('');
 
   return (
+    // eslint-disable-next-line react/jsx-filename-extension
     <QuizBackground backgroundImage={db.bg}>
       <Head>
         <title>{db.title}</title>
