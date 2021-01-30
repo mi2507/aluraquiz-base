@@ -7,7 +7,7 @@
       "image": "https://media.giphy.com/media/26n6GfmpNiRWHCqFG/giphy.gif",
       "title": "Ao início do filme Vingadores ultimato dois personagens morrem. Quem são eles?",
       "description": "Essa é pra aquecer",
-      "answer": 2,
+      "answer": 1,
       "alternatives": [
         "Gavião Arqueiro e Loki",
         "Hamdall e Loki"
@@ -17,10 +17,10 @@
       "image": "https://media.giphy.com/media/50p4IhDCUxjjy/giphy.gif",
       "title": "Quem estava com o Tesseract?",
       "description": "uhuuuu",
-      "answer": 2,
+      "answer": 0,
       "alternatives": [
-         "Thanos;",
-         "Loki;"
+         "Loki",
+         "Thanos"
       ]
     },
     {
@@ -29,8 +29,8 @@
       "description": "ironnnn",
       "answer": 1,
       "alternatives": [
-         "homem-aranha;",
-         "homem-de-ferro;"
+         "homem-de-ferro",
+         "homem-aranha"
       ]
     }
   ],
