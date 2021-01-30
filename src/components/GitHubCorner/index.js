@@ -7,9 +7,6 @@ const Wrapper = styled.div`
   border: 0;
   right: 0;
   z-index: 20;
-  @media (max-width:500px){
-  display: none;
-  }
 `;
 
 const SVGWrapper = styled.svg`

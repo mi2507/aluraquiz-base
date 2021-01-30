@@ -4,25 +4,33 @@
   "description": "Teste os seus conhecimentos: Vingadores é um filme incrível da Marvel. Faça o quiz e descubra os segredos desse filme maravilhoso!",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "image": "https://media.giphy.com/media/26n6GfmpNiRWHCqFG/giphy.gif",
       "title": "Ao início do filme Vingadores ultimato dois personagens morrem. Quem são eles?",
       "description": "Essa é pra aquecer",
       "answer": 2,
       "alternatives": [
         "Gavião Arqueiro e Loki",
-        "Hamdall e Loki",
-        "Nick Fury e Hamdal"
-      
+        "Hamdall e Loki"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
-      "answer": 0,
+      "image": "https://media.giphy.com/media/50p4IhDCUxjjy/giphy.gif",
+      "title": "Quem estava com o Tesseract?",
+      "description": "uhuuuu",
+      "answer": 2,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "Thanos;",
+         "Loki;"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/uZjLDqG3PTGA8/giphy.gif",
+      "title": "Quem ganha um traje de ferro?",
+      "description": "ironnnn",
+      "answer": 1,
+      "alternatives": [
+         "homem-aranha;",
+         "homem-de-ferro;"
       ]
     }
   ],

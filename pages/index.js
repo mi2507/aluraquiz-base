@@ -26,7 +26,7 @@ const QuizContainer = styled.div`
   margin: auto 10%;
   @media screen and (max-width: 500px) {
     margin: auto;
-    padding: 76px 15px 0;
+    padding: 15px;
   }
 `;
 
@@ -57,7 +57,7 @@ export default function Home() {
               <Input
                 name="nomeDoUsuario"
                 onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
-                placeholder="Digite seu nome"
+                placeholder="Diz ai seu nome"
                 value={name}
               />
               <Button type="submit" disabled={name.length === 0}>
@@ -76,7 +76,7 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/mi2507" />
+      <GitHubCorner projectUrl="https://github.com/omariosouto" />
     </QuizBackground>
   );
 }
