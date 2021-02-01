@@ -9,34 +9,54 @@
       "description": "Essa é pra aquecer",
       "answer": 1,
       "alternatives": [
-        "Gavião Arqueiro e Loki",
-        "Hamdall e Loki"
+        "Gavião Arqueiro e Loki.",
+        "Hamdall e Loki."
       ]
     },
     {
-      "image": "https://media.giphy.com/media/50p4IhDCUxjjy/giphy.gif",
+      "image": "https://media.giphy.com/media/aqMY57vLdkghi/giphy.gif",
       "title": "Quem estava com o Tesseract?",
       "description": "uhuuuu",
       "answer": 0,
       "alternatives": [
-         "Loki",
-         "Thanos"
+         "Loki.",
+         "Thanos."
       ]
     },
     {
-      "image": "https://media.giphy.com/media/uZjLDqG3PTGA8/giphy.gif",
+      "image": "https://media.giphy.com/media/MulsHQoVJVtQc/giphy.gif",
       "title": "Quem ganha um traje de ferro?",
-      "description": "ironnnn",
+      "description": "quem será?",
       "answer": 1,
       "alternatives": [
-         "homem-de-ferro",
-         "homem-aranha"
+         "homem-de-ferro.",
+         "homem-aranha."
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/3ohhwCYr8Z5IIAbiZa/giphy.gif",
+      "title": "Quais heróis já conseguiram levantar o martelo de Thor?",
+      "description": "eitaaaa!!",
+      "answer": 0,
+      "alternatives": [
+         "Steve Rogers e Visão.",
+         "Tony Stark e Peter Quill."
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/PPUWrDekysREun6apw/giphy.gif",
+      "title": "Quem resgata o homem de ferro e a nebulosa do espaço?",
+      "description": "quem, quem ??",
+      "answer": 0,
+      "alternatives": [
+         "Capitã Marvel.",
+         "Thor"
       ]
     }
   ],
   "external": [
     "https://alura-quiz-avengers.fernanda-kipper.vercel.app/",
-    "https://aluraquiz-base.julio-pereira.vercel.app/",
+    "https://aluraquiz.edilson-rodrigues.vercel.app/",
     "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
     
   ],

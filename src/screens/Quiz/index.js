@@ -1,3 +1,6 @@
+/* eslint-disable no-restricted-globals */
+/* eslint-disable import/no-unresolved */
+/* eslint-disable react/jsx-no-undef */
 /* eslint-disable react/prop-types */
 import React from 'react';
 // eslint-disable-next-line import/no-unresolved
@@ -5,7 +8,6 @@ import { Lottie } from '@crello/react-lottie';
 // import db from '../../../db.json';
 // eslint-disable-next-line import/no-unresolved
 // eslint-disable-next-line import/no-extraneous-dependencies
-
 import Widget from '../../components/Widget';
 import QuizLogo from '../../components/QuizLogo';
 import QuizBackground from '../../components/QuizBackground';
@@ -15,6 +17,7 @@ import Button from '../../components/Button';
 import BackLinkArrow from '../../components/BackLinkArrow';
 
 import loadingAnimation from './animations/loading.json';
+// eslint-disable-next-line no-unused-vars
 
 function ResultWidget({ results }) {
   return (
@@ -52,6 +55,7 @@ function ResultWidget({ results }) {
             </li>
           ))}
         </ul>
+
       </Widget.Content>
     </Widget>
   );
@@ -196,7 +200,7 @@ export default function QuizPage({ externalQuestions, externalBg }) {
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
     }, 1 * 2000);
-  // nasce === didMount
+    // nasce === didMount
   }, []);
 
   function handleSubmitQuiz() {
