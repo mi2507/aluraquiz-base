@@ -35,7 +35,10 @@
     }
   ],
   "external": [
-    ""
+    "https://alura-quiz-avengers.fernanda-kipper.vercel.app/",
+    "https://aluraquiz-base.julio-pereira.vercel.app/",
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+    
   ],
   "theme": {
     "colors": {
